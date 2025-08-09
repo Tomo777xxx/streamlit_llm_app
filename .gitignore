@@ -1,3 +1,21 @@
-﻿.env
-env/
+# --- Python / build ---
 __pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+env/
+venv/
+.venv/
+ENV/
+
+# --- Streamlit ---
+.streamlit/
+
+# --- OS / editor junk ---
+.DS_Store
+
+# --- Secrets ---
+.env
